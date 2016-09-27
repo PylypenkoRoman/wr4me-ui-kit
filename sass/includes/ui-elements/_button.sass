@@ -1,0 +1,52 @@
+.button
+   height: 36px
+   border-radius: 3px
+   background: #fff
+   font-size: 14px
+   font-weight: 700
+   text-align: center
+   color: $elements-dark
+   border: 1px solid $elements-light
+   display: inline-block
+   padding: 8px 20px
+   line-height: 18px
+   text-decoration: none
+   box-sizing: border-box
+   white-space: nowrap
+   vertical-align: middle
+   cursor: pointer
+   outline: 0
+   transition: 0.15s
+   user-select: none
+   text-transform: uppercase
+   opacity: 0.8
+   &:hover
+      opacity: 1
+   &.small
+      height: 30px
+      font-size: 12px
+      padding: 5px 15px
+      line-height: 18px
+   &.employer
+      color: #fff
+      border: 1px solid $employer-dark
+      background: $employer-dark
+   &.applicant
+      color: #fff
+      border: 1px solid $applicant-dark
+      background: $applicant-dark
+   &.success
+      color: #fff
+      border: 1px solid $success
+      background: $success
+   &.warning
+      color: #fff
+      border: 1px solid $warning
+      background: $warning
+   &.danger
+      color: #fff
+      border: 1px solid $danger
+      background: $danger
+
+.button + .button
+   margin-left: 20px

@@ -1,0 +1,61 @@
+.footer
+    background: $gray-bg-dark
+    padding: 30px 60px 50px
+    &__content
+        border-bottom: 1px solid rgba(255,255,255, 0.4)
+        margin-bottom: 40px
+        display: flex
+        align-items: center
+        justify-content: space-between
+        padding: 20px 40px
+    &__nav
+        width: 50%
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__nav-item
+        font-size: 14px
+        font-weight: 300
+        line-height: 2.14
+        color: rgba(255,255,255, 0.4)
+        text-decoration: none
+        transition: 0.3s
+        &:hover
+            text-decoration: underline
+    .social-networks
+        display: flex
+        &__item
+            height: 48px
+            width: 48px
+            background: rgba(255,255,255, 0.4)
+            overflow: hidden
+            border-radius: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+            margin-right: 20px
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+            opacity: 0.8
+            &:last-child
+                margin-right: 0
+            .icon
+                font-size: 1.3em
+                color: $gray-bg-dark
+            &:hover
+                opacity: 1
+    .logo
+        width: 64px
+        height: 64px
+        display: block
+        margin: 0 auto 20px
+        color: rgba(255,255,255, 0.4)
+        .icon
+            font-size: 2.5em
+            fill: rgba(255,255,255, 0.4)
+    .copyright
+        font-size: 12px
+        font-weight: 400
+        line-height: 2.5
+        margin: 0
+        text-align: center
+        color: rgba(255,255,255, 0.4)

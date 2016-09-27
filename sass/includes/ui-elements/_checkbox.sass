@@ -1,0 +1,75 @@
+.checkbox
+    position: relative
+    display: flex
+    align-items: center
+    box-sizing: border-box
+
+    input[type="checkbox"]
+        border: 0
+        clip: rect(0 0 0 0)
+        height: 1px
+        overflow: hidden
+        padding: 0
+        position: absolute
+        width: 1px
+
+    input[type="checkbox"] + label:before
+        content: ""
+        position: absolute
+        left: 0
+        top: 50%
+        margin-top: -9px
+        width: 18px
+        height: 18px
+        border-radius: 5px
+        border: 1px solid $elements-light
+        background-color: #fff
+        vertical-align: middle
+        box-sizing: border-box
+        line-height: 18px
+        transition: 0.3s
+
+    input[type="checkbox"] + label
+       vertical-align: middle
+       padding-left: 30px
+       color: $elements-dark
+       position: relative
+       cursor: pointer
+       font-size: 14px
+       line-height: 18px
+       &:hover:before
+           background-image: url("../something.png")
+           background-repeat: no-repeat
+    &.applicant
+        input[type="checkbox"]:checked + label:before
+            border: 1px solid $applicant
+            background-color: $applicant
+    &.employer
+        input[type="checkbox"]:checked + label:before
+            border: 1px solid $employer
+            background-color: $employer
+
+    // Disabled checkbox
+    input[type="checkbox"]:disabled
+        &:checked + label:before
+            background: $elements-light
+
+    input[type="checkbox"]:disabled + label
+        &:checked
+            cursor: default
+
+.checkbox-list
+    display: flex
+    align-items: center
+    background: #fff
+    overflow: hidden
+    border-radius: 3px
+    .checkbox
+        flex: 1
+        padding: 9px 14px
+        &.applicant
+            border-right: 1px solid $applicant
+        &.employer
+            border-right: 1px solid $employer
+        &:last-child
+            border: 0

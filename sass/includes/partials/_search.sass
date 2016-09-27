@@ -1,0 +1,19 @@
+.search
+    background: $employer
+    &__in
+        @extend .container
+        padding-top: 22px
+        padding-bottom: 22px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        > *
+            margin: 0 15px
+            &:first-child
+                margin-left: 0
+            &:last-child
+                margin-right: 0
+        .form-control
+            flex: 3
+        .checkbox-list
+            flex: 2

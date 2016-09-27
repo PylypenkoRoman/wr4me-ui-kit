@@ -1,0 +1,48 @@
+.download-app
+    background: $gray-bg
+    &__in
+        @extend .container
+        padding-top: 20px
+        padding-bottom: 20px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__text-block
+        margin-right: auto
+        display: flex
+        flex-direction: column
+        justify-content: center
+    &__title
+        font-size: 30px
+        font-weight: 600
+        letter-spacing: 0.4px
+        color: #fff
+        margin: 0 0 6px
+    &__text
+        font-size: 18px
+        font-weight: 400
+        letter-spacing: 0.3px
+        color: #fff
+        margin: 0
+    &__button-group
+        display: flex
+        justify-content: flex-end
+        align-items: center
+    &__button
+        margin-right: 30px
+        width: 202px
+        height: 50px
+        border-radius: 3px
+        display: block
+        opacity: 0.8
+        &.google-play
+            background: url("../../img/button_google_play.png") no-repeat
+        &.app-store
+            background: url("../../img/button_app_store.png") no-repeat
+        &:last-child
+            margin-right: 0
+        &:hover
+            opacity: 1
+    .icon-ios-logo
+        font-size: 5em
+        margin-right: 25px

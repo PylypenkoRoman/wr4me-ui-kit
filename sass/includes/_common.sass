@@ -1,0 +1,31 @@
+// Common styles
+html,
+body
+    min-height: 100%
+
+body
+    font-family: 'OpenSans', sans-serif
+    font-weight: normal
+    background-color: #fff
+    position: relative
+    &.overflow-hidden
+        overflow: hidden
+
+.wrapper
+    box-sizing: border-box
+    min-height: 100%
+
+.container
+    position: relative
+    box-sizing: border-box
+    margin: 0 auto
+    padding: 0 15px
+    max-width: 1220px
+    @include respond-to(tablet-landscape)
+        max-width: 768px
+    @include respond-to(tablet-portrait)
+        max-width: 600px
+    @include respond-to(mobile-landscape)
+        max-width: 480px
+    @include respond-to(mobile-portrait)
+        max-width: 100%

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="202px" height="50px" viewBox="0 0 202 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>54455CC0-96F7-45E3-8F40-4D3906B9B586</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="UI-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_Homepage_Applicant_Desktop" transform="translate(-1354.000000, -664.000000)">
+            <g id="Group-2" transform="translate(0.000000, 630.000000)">
+                <g id="button-copy-2" transform="translate(1355.000000, 35.000000)" >
+                    <rect id="Rectangle-2-Copy" stroke="#FFFFFF" x="0" y="0" width="200" height="48" rx="3"></rect>
+                    <text id="Google-Play" font-family="OpenSans-Bold, Open Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="59" y="37" fill="#FFFFFF">Google Play</tspan>
+                    </text>
+                    <text id="Android-App-on" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="59" y="17" color="fff">Android App on</tspan>
+                    </text>
+                    <g id="google_play" transform="translate(15.000000, 8.000000)" fill="#FFFFFF">
+                        <g id="Group-5" transform="translate(4.000000, 3.000000)">
+                            <path d="M0.0962060086,1.14520172 C0.0390386266,1.34564807 0,1.56164807 0,1.80875536 L0,22.1090472 C0,22.3524464 0.0390386266,22.5660773 0.0937339056,22.7640515 L11.4873476,11.9699227 L0.0962060086,1.14520172 L0.0962060086,1.14520172 Z" id="Fill-1"></path>
+                            <path d="M15.9338369,7.7568412 L2.63062661,0.357012876 C2.10036052,0.0343004292 1.57843777,-0.0473819742 1.13706438,0.065304721 L12.5789871,10.9366867 L15.9338369,7.7568412 Z" id="Fill-3"></path>
+                            <path d="M20.8382833,10.4852189 L17.2878283,8.51000858 L13.6508498,11.9546781 L17.3553991,15.4760858 L20.8100601,13.5789528 C22.4963433,12.6181288 21.8812017,11.0711073 20.8382833,10.4852189 L20.8382833,10.4852189 Z" id="Fill-4"></path>
+                            <path d="M1.10327897,23.8400343 C1.55145064,23.9650815 2.08624893,23.8903004 2.63021459,23.5591416 L15.9732876,16.2329614 L12.5580773,12.9875021 C12.5580773,12.9879142 1.10327897,23.8400343 1.10327897,23.8400343 L1.10327897,23.8400343 Z" id="Fill-6"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

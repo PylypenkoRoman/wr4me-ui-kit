@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>4A2CF7B4-EB3D-4713-AFF7-5820A951C58B</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#10ABCF" offset="0%"></stop>
+            <stop stop-color="#27D2C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="UI-Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.1_Homepage_Applicant_Desktop" transform="translate(-366.000000, -650.000000)">
+            <g id="Group-2" transform="translate(0.000000, 630.000000)">
+                <g id="ios_launch_icon" transform="translate(366.000000, 20.000000)">
+                    <rect id="Rectangle-127-Copy" fill="url(#linearGradient-1)" x="0" y="0" width="80" height="80" rx="16"></rect>
+                    <g id="wrk_4_me_logo_2" transform="translate(14.375000, 12.656250)" fill="#FFFFFF">
+                        <g id="Layer_1">
+                            <ellipse id="Oval" cx="25.0579481" cy="49.21875" rx="5.32948896" ry="5.32852564"></ellipse>
+                            <path d="M46.0486546,0 C49.7886469,0 52.3131416,3.83279915 50.7703948,7.29166667 L37.8206716,36.318109 C36.9791734,38.1877671 35.1559272,39.4030449 33.0989314,39.4030449 L33.0989314,39.4030449 C29.3589392,39.4030449 26.8344444,35.5235043 28.3771912,32.1113782 L41.2801645,3.0849359 C42.1216627,1.21527778 43.9916589,0 46.0486546,0 L46.0486546,0 L46.0486546,0 Z" id="Shape"></path>
+                            <path d="M29.1719396,0 C32.9119318,0 35.4364266,3.83279915 33.8936798,7.29166667 L20.9907065,36.3648504 C20.1492083,38.2345085 18.325962,39.4497863 16.2689663,39.4497863 L16.2689663,39.4497863 C12.528974,39.4497863 10.0044793,35.6169872 11.5472261,32.1581197 L24.4501993,3.0849359 C25.2916976,1.21527778 27.1616937,0 29.1719396,0 L29.1719396,0 L29.1719396,0 Z" id="Shape"></path>
+                            <path d="M14.3522203,13.0876068 L8.69548199,25.8012821 L0.467499032,7.29166667 C-1.07524777,3.8795406 1.449247,0 5.18923925,0 C7.24623499,0 9.06948121,1.21527778 9.91097947,3.0849359 L14.3522203,13.0876068 L14.3522203,13.0876068 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

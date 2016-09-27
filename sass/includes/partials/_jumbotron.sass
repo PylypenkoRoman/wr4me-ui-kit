@@ -1,0 +1,47 @@
+.jumbotron
+    background-image: $main-gradient
+    padding: 45px 60px
+    &__title
+        font-size: 36px
+        font-weight: 700
+        letter-spacing: 0.5px
+        margin: 0 0 50px
+        text-align: center
+        color: #fff
+    &__list
+        display: flex
+        list-style: none
+        padding: 0
+        margin: 0
+        flex-wrap: wrap
+    &__item
+        position: relative
+        width: 25%
+        &:after
+            content: ""
+            width: 2px
+            position: absolute
+            top: 0
+            bottom: 0
+            right: -1px
+            opacity: 0.6
+            background: rgba(255,255,255, 0.6)
+        &:last-child
+            &:after
+                display: none
+    &__icon-wrap
+        width: 124px
+        height: 124px
+        box-sizing: border-box
+        margin: 0 auto 32px
+        border-radius: 50%
+        overflow: hidden
+        background: #fff
+
+    &__item-title
+        font-size: 20px
+        font-weight: 700
+        text-align: center
+        a
+            color: #fff
+            text-decoration: none
